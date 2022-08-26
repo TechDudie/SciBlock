@@ -273,8 +273,6 @@ end,
             for id, item  in pairs(invlist) do
                 filter_string = filter_string .. tostring(item)
             end
-            print(workspace_data["sciblock:chip_gold"])
-            print(filter_string)
             local result = ""
             for output, recipe in pairs(workspace_data) do
                 if filter_string == recipe then
