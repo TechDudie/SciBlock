@@ -256,10 +256,10 @@ minetest.register_node("sciblock:workspace", {
             "button[6.75,5.25;3,1;craft;Craft!]"
         )
         local inv = meta:get_inventory()
-		inv:set_size("main", 25)
+        inv:set_size("main", 25)
         local prev = meta:get_inventory()
-		inv:set_size("preview", 1)
-    end,
+        inv:set_size("preview", 1)
+end,
     on_receive_fields = function(pos, formname, fields, player)
         if fields.quit then
             return
