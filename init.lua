@@ -1,4 +1,4 @@
-print("Registering logging function for sciblock")
+print("Registering logging function for SciBlock")
 function log(text, level) -- Log function
     if level == nil then
         level = "INFO"
@@ -208,9 +208,9 @@ workspace_data = {};
 -- HEY YOU CHEATER! FIGURE THE RECIPES OUT YOURSELVES!
 workspace_data["sciblock:chip_gold"] = {
     "sciblock:transistor_npn", "sciblock:transistor_npn", "sciblock:transistor_npn", "sciblock:transistor_npn", "sciblock:transistor_npn",
-    "sciblock:transistor_npn", "sciblock:transistor_npn", "sciblock:transistor_npn", "sciblock:transistor_npn", "sciblock:transistor_npn",
+    "sciblock:transistor_npn", "sciblock:transistor_pnp", "sciblock:transistor_npn", "sciblock:transistor_pnp", "sciblock:transistor_npn",
     "sciblock:transistor_npn", "sciblock:transistor_npn", "sciblock:silicon_panel",  "sciblock:transistor_npn", "sciblock:transistor_npn",
-    "sciblock:transistor_npn", "sciblock:transistor_npn", "sciblock:transistor_npn", "sciblock:transistor_npn", "sciblock:transistor_npn",
+    "sciblock:transistor_npn", "sciblock:transistor_pnp", "sciblock:transistor_npn", "sciblock:transistor_pnp", "sciblock:transistor_npn",
     "sciblock:transistor_npn", "sciblock:transistor_npn", "sciblock:transistor_npn", "sciblock:transistor_npn", "sciblock:transistor_npn"
 }
 
